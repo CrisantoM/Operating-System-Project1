@@ -33,10 +33,10 @@ public class Main {
             sjfList.add(p.copy());
         }
 
-        System.out.println("=== First-Come, First-Served (FCFS) ===");
+        System.out.println("First-Come, First-Served (FCFS)");
         fcfs(fcfsList);
 
-        System.out.println("\n=== Shortest Job First (SJF) ===");
+        System.out.println("\nShortest Job First (SJF)");
         sjf(sjfList);
     }
 
